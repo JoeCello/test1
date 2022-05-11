@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Joe Tran"
+  },
+  "text": {
+    "more": "An undirected social network of German KOLs connected by co-authorship and leadership societies",
+    "intro": "Germany market access network",
+    "title": "Germany Market Access"
+  },
+  "legend": {
+    "edgeLabel": "connections",
+    "colorLabel": "Institution",
+    "nodeLabel": "users"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Institution",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": "Label"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 1,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 20,
+      "minEdgeSize": 1,
+      "minNodeSize": 1,
+      "maxNodeSize": 20
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
